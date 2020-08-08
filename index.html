@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <link rel="stylesheet" href="animate.css">
+
+	<meta name="description" content="Описание страницы">
+	<title>AXIT</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--FAVICONS-->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#40c9e2">
+
+</head>
+<body>
+
+	<header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img src="img/Logo.png" alt="">
+                </div>
+    
+                <div class="header__burger" id="navToggle">
+                    <span></span>
+                </div>
+                
+                <nav class="header__menu" id="header__menu">
+                    <ul class="header__list">
+                    
+                        <li>
+                            <a href="#" class="header__link" data-scroll="#tabs">Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link" data-scroll="#benefits">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link" data-scroll="#price">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link" data-scroll="#reviews">Reviews</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link" data-scroll="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav> 
+            </div>
+        </div>
+    </header>
+
+
+
+<div class="intro">
+    <div class="container">
+
+        <div class="intro__inner">
+        <div class="intro__left">
+            <img class="logo__bg" src="img/Logo-bg.png">
+            <h4 class="intro__title">MODERN AXURE TEMPLATE <br> FOR BEAUTIFUL PROTOTYPES</h4>
+            <h3 class="intro__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra justo commodo.</h3>
+
+                <a class="btn" href="#">Download</a>
+            </div>
+
+
+
+
+        
+        <form action="#" class="intro__right">
+            <h1 class="intro__name">Try Your <span>FREE</span> Trial Today</h1>
+
+            <div class="intro__group">
+                <input type="text" class="intro__input" required>
+                <label class="intro__label">Name</label>
+            </div>
+    
+            <div class="intro__group">
+                <input type="text" class="intro__input" required>
+                <label class="intro__label">Email</label>
+            </div>
+
+            <div class="intro__group">
+                <input type="text" class="intro__input" required>
+                <label class="intro__label">Password</label>
+            </div>
+    
+            <a href='#' class="intro__button">Get Started</a>
+        </form>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="section">
+	<div class="container">
+
+        <div class="logos__group">
+
+        <div class="logos__header">
+            <div class="logos__title">Social Media</div>
+            <div class="logos__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aenean euismod bibendum laoreet.</div>
+        </div>
+
+            <div class="logos__items">
+                <div class="logos__item">
+                    <a href="#">
+                        <img src="img/social/1.png" alt="">
+                    </a>
+                </div>
+
+                <div class="logos__item">
+                    <a href="#">
+                        <img src="img/social/images/2.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="logos__item">
+                    <a href="#">
+                        <img src="img/social/images/3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="logos__item">
+                    <a href="#">
+                        <img src="img/social/images/4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="logos__item">
+                    <a href="#">
+                        <img src="img/social/images/5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="logos__item">
+                    <a href="#">
+                        <img src="img/social/images/6.jpg" alt="">
+                    </a>
+                </div>
+                <div class="logos__item">
+                    <a href="#">
+                        <img src="img/social/images/7.jpg" alt="">
+                    </a>
+                </div>
+             </div>
+    </div>
+
+	</div>
+</div>
+
+
+<div class="tabs" id="tabs">
+    <div class="container">
+
+    <div class="tabs__inner">
+        <div class="tabs-header">
+            <div class="tabs-header__item active js-tab-trigger" data-tab="1">Tab 1</div>
+            <div class="tabs-header__item js-tab-trigger" data-tab="2">Tab 2</div>
+            <div class="tabs-header__item js-tab-trigger" data-tab="3">Tab 3</div>
+        </div>
+
+        <div class="tabs-content">
+            <div class="tabs-content__item active js-tab-content" data-tab="1">
+                <div class="tabs-title">Tabs with soft transitioning effect.</div>
+                <div class="tabs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                    penatibus et magnis dis parturient montes.
+
+                    <br>
+                    <br>
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                    bibendum laoreet.
+                    </div>
+
+
+                    <a class="btn-tabs" href="#">Download</a>
+
+            </div>
+            <div class="tabs-content__item js-tab-content" data-tab="2">
+                <div class="tabs-title">Soft transitioning effect.</div>
+                <div class="tabs-text">Dolor ipsum my so Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                    penatibus et magnis dis parturient montes.
+                    </div>
+
+
+                    <a class="btn-tabs" href="#">Download</a>
+            </div>
+            <div class="tabs-content__item js-tab-content" data-tab="3">
+                <div class="tabs-title">Sit amet, consectetur transitioning effect.</div>
+                <div class="tabs-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea labore assumenda quos molestiae aliquam ducimus nam? Sed alias libero nam. Eos laboriosam perferendis voluptatum maxime sunt nemo dolores accusamus similique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                    penatibus et magnis dis parturient montes.
+                    </div>
+
+
+                    <a class="btn-tabs" href="#">Download</a>
+            </div>
+        </div>
+
+        <img class="tabs__photo" src="img/tabs.png" alt=""> 
+    </div>
+</div>
+</div>
+
+<div class="sub sub--bot">
+    <div class="container">
+        <div class="sub__inner">
+            <img class="sub__photo wow fadeInLeft" data-wow-duration="2s" src="img/1.jpg" alt="">
+
+            <div class="sub__section sub__section--top wow fadeInRight" data-wow-duration="3s">
+                <div class="sub__title">Sub list section</div>
+                <div class="sub__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus 
+                    accumsan et viverra justo commodo.</div>
+
+                    <div class="sub__item">
+                        <img class="sub__icon" src="img/load.png" alt="">
+
+                        <div class="sub__wrap">
+                            <div class="sub__name">Title</div>
+
+                            <div class="sub__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</div>
+                        </div>
+                    </div>
+
+                    <div class="sub__item">
+                        <img class="sub__icon" src="img/load.png" alt="">
+
+                        <div class="sub__wrap">
+                            <div class="sub__name">Title</div>
+
+                            <div class="sub__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Aenean euismod bibendum laoreet. Proin gravida dolor 
+                                sit amet lacus accumsan et viverra justo commodo.</div>
+                        </div>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="sub sub--gray">
+    <div class="container">
+        <div class="sub__inner">
+            <div class="sub__section wow fadeInLeft" data-wow-duration="3s">
+                <div class="sub__title">Sub list section</div>
+                <div class="sub__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
+                    euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan 
+                    et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis 
+                    natoque penatibus et magnis dis parturient montes.
+
+                    <br>
+                    <br>
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                    bibendum laoreet.
+                
+                </div>
+            </div>
+            <img class="sub__photo wow fadeInRight" data-wow-duration="2s" src="img/2.jpg" alt="">
+
+        </div>
+    </div>
+</div>
+
+
+<div class="benefits" id="benefits">
+    <div class="container">
+        <div class="benefits__inner">
+            <div class="benefits__title">WHY THIS IS AWESOME</div>
+            <div class="benefits__line"></div>
+            <div class="benefits__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+
+
+            <div class="benefits__group">
+            <div class="benefits__item">
+                <div class="circle">
+                    <img class="benefits__icon" src="img/benefits/1.png" alt="">
+                </div>
+
+                <div class="benefits__wrap">
+                    <div class="benefits__name">Thoughtful Design</div>
+
+                    <div class="benefits__subtitle benefits__subtitle--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean euismod bibendum laoreet. Proin gravida dolor 
+                        sit amet lacus accumsan et viverra justo commodo.</div>
+                </div>
+            </div>
+
+            <div class="benefits__item">
+                <div class="circle">
+                    <img class="benefits__icon" src="img/benefits/2.png" alt="">
+                </div>
+
+
+                <div class="benefits__wrap">
+                    <div class="benefits__name">Well Crafted</div>
+
+                    <div class="benefits__subtitle benefits__subtitle--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean euismod bibendum laoreet. Proin gravida dolor 
+                        sit amet lacus accumsan et viverra justo commodo.</div>
+                </div>
+            </div>
+
+            <div class="benefits__item">
+
+                <div class="circle">
+                    <img class="benefits__icon" src="img/benefits/3.png" alt="">
+                </div>
+
+                
+
+                <div class="benefits__wrap">
+                    <div class="benefits__name">Easy to Customize</div>
+
+                    <div class="benefits__subtitle benefits__subtitle--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Aenean euismod bibendum laoreet. Proin gravida dolor 
+                        sit amet lacus accumsan et viverra justo commodo.</div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="price" id="price">
+    <div class="container">
+        <div class="benefits__inner">
+            <div class="benefits__title">PRICING OPTIONS</div>
+            <div class="benefits__line"></div>
+            <div class="benefits__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
+
+        <div class="price__inner">
+        <a href="#" class="price__item">
+            <div class="price__content">
+                <div class="price__title">Basic</div>
+                <div class="price__number">$ <span>0</span></div>
+                <div class="price__subtitle">Free for Life</div>
+                
+
+                <ul class="price__group">
+                    <div class="price__line"></div>
+                    <li class="price__text">1 gb of space</li>
+                    <li class="price__text">10 gb of bandwidth</li>
+                    <li class="price__text">3 websites</li>
+                    <li class="price__text">Basic Customization</li>
+                    <li class="price__text">wordpress integration</li>
+                    <li class="price__text">email support</li>
+                </ul>
+            </div>  
+            
+        </a>
+
+        <a href="#" class="price__item">
+            <div class="price__content">
+                <div class="price__title">Professional</div>
+                <div class="price__number">$ <span>19</span></div>
+                <div class="price__subtitle">Monthly Payment</div>
+                
+                <div class="price__line price__line--btn">OUR MOST POPULAR</div>
+
+
+                <ul class="price__group">
+                    <li class="price__text">5 gb of space</li>
+                    <li class="price__text">50 gb of bandwidth</li>
+                    <li class="price__text">12 websites</li>
+                    <li class="price__text">Advanced Customization</li>
+                    <li class="price__text">wordpress integration</li>
+                    <li class="price__text">email support</li>
+                </ul>
+            </div>  
+        </a>
+
+        <a href="#" class="price__item">
+            <div class="price__content">
+                <div class="price__title">Enterprise</div>
+                <div class="price__number">$ <span>70</span></div>
+                <div class="price__subtitle">Monthly Payment</div>
+                
+
+                <ul class="price__group">
+                    <div class="price__line"></div>
+                    <li class="price__text">Unlimited space</li>
+                    <li class="price__text">unlimited bandwidth</li>
+                    <li class="price__text">100 websites</li>
+                    <li class="price__text">Advanced Customization</li>
+                    <li class="price__text">wordpress integration</li>
+                    <li class="price__text">24/7 customer support</li>
+                </ul>
+            </div>  
+            
+        </a>
+
+        
+    </div>
+
+    </div>
+</div>
+
+
+<div class="reviews" id="reviews">
+    <div class="container">
+        <div class="benefits__inner">
+            <div class="benefits__title">WHAT OUR CUSTOMERS ARE SAYING</div>
+            <div class="benefits__line"></div>
+            <div class="benefits__subtitle benefits__subtitle--reviews">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
+    </div>
+
+        
+        <div class="reviews__inner">
+            <div class="reviews__item">
+                <div class="reviews__text">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.
+                </div>
+
+                <div class="reviews__content">
+                    <img class="reviews__avatar" src="img/avatar/avatar.png" height="70px" width="70px" alt="">
+                    <div>
+                        <div class="reviews__title">Jeremy H.</div>
+                        <div class="reviews__prof">Manager</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews__item">
+                <div class="reviews__text">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.
+                </div>
+
+                <div class="reviews__content">
+                    <img class="reviews__avatar" src="img/avatar/avatar.png" height="70px" width="70px" alt="">
+                    <div>
+                        <div class="reviews__title">John S.</div>
+                        <div class="reviews__prof">Freelancer</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews__item">
+                <div class="reviews__text">
+                    Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.
+                </div>
+
+                <div class="reviews__content">
+                    <img class="reviews__avatar" src="img/avatar/avatar.png" height="70px" width="70px" alt="">
+                    <div>
+                        <div class="reviews__title">Susan W.</div>
+                        <div class="reviews__prof">Photographer</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</div>
+
+
+<div class="design">
+    <div class="design__inner">
+    <h5 class="design__title">STYLISH AXURE DESIGN</h5>
+    <h3 class="design__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h3>
+    <a class="btn" href="#">Download</a>
+
+    </div>
+</div>
+
+
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="benefits__inner">
+            <div class="benefits__title">Contact Us</div>
+            <div class="benefits__line"></div>
+            <div class="benefits__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        </div>
+
+    <form action="#" class="contact__form">
+
+        <div class="contact__left">
+            <input type="text" placeholder="Name" class="contact__input">
+            <input type="text" placeholder="Email" class="contact__input">
+            <input type="text" placeholder="Subject" class="contact__input">
+        </div>
+        
+        <div class="contact__right">
+            <textarea placeholder="Message" class="contact__textarea"></textarea>
+        </div>
+    </form>    
+    <p class="center">
+        <a class="btn__contact" href="#">Send Message</a>
+    </p>
+</div>
+</div>
+
+<footer class="footer">
+    <div class="footer__inner">
+        
+        <div class="footer__items">
+            <div class="footer__item">
+                <a href="#">
+                    <img src="img/social/1.png" height="23px" width="12px" alt="">
+                </a>
+            </div>
+            <div class="footer__item">
+                <a href="#">
+                    <img src="img/social/2.png" height="18px" width="21px" alt="">
+                </a>
+            </div>
+            <div class="footer__item">
+                <a href="#">
+                    <img src="img/social/3.jpg" height="22px" width="23px" alt="">
+                </a>
+            </div>
+            <div class="footer__item">
+                <a href="#">
+                    <img src="img/social/4.jpg" height="21px" width="21px" alt="">
+                </a>
+            </div>
+            <div class="footer__item">
+                <a href="#">
+                    <img src="img/social/5.png" height="21px" width="22px" alt="">
+                </a>
+            </div>
+            <div class="footer__item">
+                <a href="#">
+                    <img src="img/social/6.png" height="21px" width="27px" alt="">
+                </a>
+            </div>
+            <div class="footer__item">
+                <a href="#">
+                    <img src="img/social/7.png" height="19px" width="19px" alt="">
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="footer__year">© 2015 Axure Themes</div>
+
+</footer>
+
+     <!--Javascript-->
+     <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+	 <script src="js/script.js"></script>
+</body>
+</html>
+
